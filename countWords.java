@@ -1,8 +1,8 @@
 package github;
 
 public class countWords {
-//	Counts the number of individual words in a string. For added complexity 
-//	read these strings in from a text file and generate a summary.
+//	Counts the number of individual words in a string. 
+	
 	int total = 0;
 	countWords(String input){
 		String[] list = input.split(" ");
