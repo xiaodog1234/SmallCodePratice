@@ -5,8 +5,8 @@ public class countWords {
 //	read these strings in from a text file and generate a summary.
 	int total = 0;
 	countWords(String input){
-		input.split(" ");
-		total = input.length();
+		String[] list = input.split(" ");
+		total = list.length;
 	}
 	public int getTotal(){
 		return total;
